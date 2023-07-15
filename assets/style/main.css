@@ -4,7 +4,7 @@
 
 @layer components {
 	.header {
-		@apply flex flex-row justify-between content-center p-4 border-solid border border-black bg-zinc-800 text-white sticky;
+		@apply p-4 border-solid border border-black bg-zinc-800 text-white sticky;
 	}
 
 	.header__input {

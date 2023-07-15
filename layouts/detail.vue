@@ -6,8 +6,8 @@
     <div>
       <slot />
     </div>
-    <footer>
-      <h3>test</h3>
+    <footer class="flex flex-row justify-center items-center my-20">
+      <h3 class="font-bold">Footer</h3>
     </footer>
   </div>
 </template>
