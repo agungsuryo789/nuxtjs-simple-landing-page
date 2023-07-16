@@ -4,5 +4,10 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss'
   ],
-  css: ['~/assets/style/main.css']
+  css: ['~/assets/style/main.css'],
+  runtimeConfig: {
+    public: {
+		BASE_URL: 'https://developer.redcomm.co.id/test/fe/test-api/api',
+    },
+  },
 })
