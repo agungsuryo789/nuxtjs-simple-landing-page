@@ -1,5 +1,5 @@
 # Nuxt 3 Minimal Starter
-## Check for Project Documentation [Link to My Document](DOCUMENTATION.md)
+##  [Check for Project Documentation](DOCUMENTATION.md)
 ## Setup
 
 Make sure to install the dependencies:
