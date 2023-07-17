@@ -18,6 +18,7 @@ This application is a simple Nuxt 3 project example. Used for browse Cats data.
 
 ## Folder Structure
 
+```bash
 ├── assets/
 ├── components/
 ├── layouts/
@@ -25,20 +26,21 @@ This application is a simple Nuxt 3 project example. Used for browse Cats data.
 │   ├── index.vue
 ├── public/
 ├── server/
+```
 
-assets/: This directory contains your static assets like images, CSS, and other files that need to be processed by webpack.
+- assets/: This directory contains your static assets like images, CSS, and other files that need to be processed by webpack.
 
-components/: It holds your Nuxt components that are used throughout your application.
+- components/: It holds your Nuxt components that are used throughout your application.
 
-layouts/: A directory for defining layout components that wrap your pages.
+- layouts/: A directory for defining layout components that wrap your pages.
 
-pages/: This directory contains your Nuxt components that represent the different pages of your application.
+- pages/: This directory contains your Nuxt components that represent the different pages of your application.
 
-index.vue: The main landing page of your application.
+- index.vue: The main landing page of your application.
 
-public/: A directory for static files that will be served as-is by the server. These files are directly accessible by URL, without being processed by webpack.
+- public/: A directory for static files that will be served as-is by the server. These files are directly accessible by URL, without being processed by webpack.
 
-server/: This folder is not a standard part of the Nuxt.js folder structure. It might contain server-side code or server-specific configuration files if you have customized your server setup.
+- server/: This folder is not a standard part of the Nuxt.js folder structure. It might contain server-side code or server-specific configuration files if you have customized your server setup.
 
 # Nuxt.js Configuration
 
