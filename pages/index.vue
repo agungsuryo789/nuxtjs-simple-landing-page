@@ -103,9 +103,6 @@ const handleFetchScroll = async () => {
     .then((response) => {
       if (response.success) {
         pending.value = false;
-        //catsData.value = response?.data.data;
-        // catsData.value = arrayRef.value.concat(newArray);
-        // or: arrayRef.value.push(...newArray);
         catsData.value = [...catsData.value, ...response?.data.data];
       } else {
         console.log("Request failed!");
