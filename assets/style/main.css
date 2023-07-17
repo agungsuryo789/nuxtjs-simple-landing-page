@@ -4,30 +4,27 @@
 
 @layer components {
 	.header {
-		@apply p-4 border-solid border border-black bg-zinc-800 text-white sticky;
+		@apply p-4 border-solid border border-black bg-zinc-800 sticky;
 	}
-
 	.header__input {
 		@apply px-2 border-solid border-2 border-black rounded;
 	}
-
 	.card {
 		@apply m-2 p-2 flex flex-col justify-center items-center rounded shadow-lg max-w-sm hover:cursor-pointer;
 	}
-
 	.card-hover-animation{
 		@apply transition duration-300 ease-in-out hover:shadow-2xl;
 	}
-
-	.card__img{
-		@apply object-cover w-1/2;
+	.card-hover-gray{
+		@apply grayscale hover:grayscale-0;
 	}
-
 	.modal{
-		@apply fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full flex flex-col justify-center items-center p-3 z-50;
+		@apply fixed inset-0 bg-gray-600 bg-opacity-50 w-full flex flex-col justify-center items-center p-3 z-50;
 	}
-	
 	.modal__body{
-		@apply bg-white border border-solid rounded shadow-lg max-w-lg p-2 my-3
+		@apply bg-white border border-solid rounded shadow-lg w-1/2
+	}
+	.card__container-font {
+		@apply font-mono font-medium text-lg
 	}
 }

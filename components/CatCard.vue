@@ -1,16 +1,21 @@
 <template>
-  <div class="card card-hover-animation">
+  <div class="card card-hover-animation card-hover-gray relative text-black hover:text-white">
     <img
-      src="https://img.freepik.com/free-photo/red-white-cat-i-white-studio_155003-13189.jpg?w=2000"
+      :src="props.data?.images[0].path"
       alt=""
-      class="card__img"
+      class="card__img object-fit"
     />
-    <h5 class="card__name font-bold">Cat Name</h5>
-    <p class="card__detail">Breed</p>
-    <span> X Years old </span>
+
+    <div class="card__container card__container-font absolute bottom-4">
+      <h5 class="card__name font-bold">{{ props.data.name }}</h5>
+      <p class="card__detail">{{ props.data.breed }}</p>
+      <span> {{ props.data.age }} Years old </span>
+    </div>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+const props = defineProps(["data"]);
+</script>
 
 <style scoped></style>

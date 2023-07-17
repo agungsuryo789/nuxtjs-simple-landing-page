@@ -1,7 +1,5 @@
 <template>
   <div>
-    <navbar />
-
     <!-- content output -->
     <div>
       <slot />
@@ -9,6 +7,7 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+</script>
 
 <style scoped></style>
